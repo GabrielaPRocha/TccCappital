@@ -1,6 +1,10 @@
-#menu{
+.nav-extended{
     background-color: #64b5f6 ;
 }
-body{
+.card-stacked{
     background-color: #e3f2fd ;
+}
+
+.brand-logo{
+    width:35%;  
 }
