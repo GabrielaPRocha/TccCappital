@@ -338,6 +338,8 @@
                     .card-info {
                         position: absolute;
                         bottom: 0;
+                        opacity: 0;
+                        visibility: hidden;
                         padding: 2rem;
                         text-shadow: 0 0.1rem 0.3rem rgb(0, 0, 0, .4);
                     }
@@ -359,6 +361,7 @@
                         font-weight: 400;
                         color: #eee;
                         margin-bottom: 2rem;
+                        width: 115%;
                     }
                     
                     .card-info button {
@@ -368,4 +371,11 @@
                         background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
                         background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
                         border-radius: .3rem;
+                        border: none;
+                    }
+                    
+                    .card:hover .card-info {
+                        bottom: 2rem;
+                        opacity: 1;
+                        visibility: visible;
                     }
